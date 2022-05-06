@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pic {
+    /* width: 1600px;
+    height: 900px; */
+    background-color: rgb(250, 249, 247);
+    float: left;
+}
+/* img {
+    width: 1000px;
+    height: 1000px;
+} */
+#seg1 {
+    z-index: 1;
+    position: absolute;
+    left: 225px;
+    top: 189px;
+}
+#seg2 {
+    z-index: 1;
+    position: absolute;
+    left: 315px;
+    top: 189px;
+}
+#forward {
+    z-index: 1;
+    position: absolute;
+    left: 702px;
+    top: 168px;
+}
+#reverse {
+    z-index: 1;
+    position: absolute;
+    left: 702px;
+    top: 221px;
+}
+#pause {
+    z-index: 1;
+    position: absolute;
+    left: 702px;
+    top: 273px;
+}
+#timeUp {
+    z-index: 1;
+    position: absolute;
+    left: 60px;
+    top: 354px;
+}
+#timeDown {
+    z-index: 1;
+    position: absolute;
+    left: 269px;
+    top: 354px;
+}
+#stop {
+    z-index: 1;
+    position: absolute;
+    left: 476px;
+    top: 354px;
+}
+#start {
+    z-index: 1;
+    position: absolute;
+    left: 683px;
+    top: 354px;
+}
+#buzzer {
+    z-index: 1;
+    position: absolute;
+    left: 420px;
+    top: 150px;
+}
+.control {
+    float: left;
+    /* background-color: black; */
+    width: 34%;
+    margin-top: 10px;
+    margin-left: 25px;
+    /* margin-left: 60px; */
+
+    text-align: center;
+}
+.header {
+    float: left;
+    width: 37%;
+}
+.status {
+    float: left;
+    margin-left: 20px;
+    width: 35%;
+}
+/* .progressbar {
+    float: left;
+    margin-left: 20px;
+} */
+.information {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 35%;
+}
+.more {
+    float: left;
+    position: fixed;
+    right: 1px;
+    top: 1px;
+}
+.alert1 {
+    float: left;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.infoshow {
+    float: left;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+    padding-left: 5px;
+    font-size: 16px;
+}
+/* a {
+    text-decoration: none;
+    text-decoration: overline;
+}
+a:hover {
+    color: rgb(17, 128, 225);
+}
+a:visited {
+    color: rgb(42, 142, 230);
+}
+a:link {
+    color: rgb(45, 139, 222);
+}
+a:active {
+    color: rgb(58, 156, 241);
+} */
